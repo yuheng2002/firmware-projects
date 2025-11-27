@@ -1,36 +1,29 @@
-# Firmware Projects (Planned for Winter Break 2025)
-These projects are planned for completion during the 2025 winter break to strengthen my C programming and embedded firmware fundamentals.
+# Embedded Firmware Learning Journey
 
-# 1. PWM Fan Speed Controller (Planned)
+This repository documents my self-study projects in **Bare-Metal Embedded C** programming using the **STM32 (ARM Cortex-M)** platform. 
 
-Platform: STM32 Nucleo or Arduino
-Focus: C programming, ADC, PWM, firmware debugging
+My goal for Winter 2025 is to bridge the gap between my software coursework (CSE 29) and hardware fundamentals (ECE 35) by building low-level drivers from scratch, without relying on high-level libraries like Arduino or HAL.
 
-Description:
-A temperature-controlled fan system that reads analog temperature values through the ADC and adjusts fan speed using PWM. Modes (Low/Medium/High) will be selected based on temperature thresholds. Serial output will be used for monitoring and debugging.
+## 🚧 Planned Projects (Winter 2025)
 
-Planned Skills:
-- ADC reading & signal mapping
-- PWM configuration
-- Basic control logic & state handling
-- Debugging firmware behavior via serial prints
+### Project 1: PWM Fan Controller
+**Concept:** A temperature-regulated cooling system.
+**Learning Objectives:**
+* **Hardware Interfacing:** Connect a temperature sensor via **I2C** protocol.
+* **Register Manipulation:** Manually configure **Hardware Timers** to generate **PWM** signals for fan speed control.
+* **Logic:** Map temperature readings to fan duty cycles using C.
 
-# 2. Interrupt-Driven LED Controller (Planned)
+### Project 2: Interrupt-Driven LED System
+**Concept:** A responsive LED control system that handles user input without freezing the CPU.
+**Learning Objectives:**
+* **Interrupts vs. Polling:** Implement **Hardware Interrupts (ISR)** to handle button presses immediately.
+* **State Machine:** Design a Finite State Machine (FSM) in C to toggle between LED modes (Solid, Blink, Breathe).
+* **Signal Processing:** Implement software **debouncing** logic to filter out mechanical switch noise.
 
-Platform: STM32 Nucleo or Arduino
-Focus: GPIO interrupts, debouncing, state machines
+---
 
-Description:
-- A button-controlled LED system where each button press cycles the LED through multiple modes (off, solid, blink, breathe). Input noise from the button will be handled through software debouncing. LED behavior will be implemented using a simple state machine.
-
-Planned Skills:
-- GPIO interrupt setup
-- Debouncing algorithm
-- ISR (Interrupt Service Routine) structure
-- Timing control for LED patterns
-
-# Goals
-- Strengthen low-level C programming
-- Build experience with MCU peripherals (GPIO, ADC, PWM, interrupts)
-- Practice debugging and structured firmware design
-- Prepare for embedded/firmware internship interviews
+## 🛠 Toolkit
+* **Board:** STM32 Nucleo-64
+* **Language:** C (Standard C99/C11)
+* **Debugging:** GDB & Logic Analyzer (Learning to use)
+* **Documentation:** STM32F4 Reference Manual & Datasheets
