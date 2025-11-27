@@ -4,7 +4,7 @@ This repository documents my self-study projects in **Bare-Metal Embedded C** pr
 
 My goal for Winter 2025 is to bridge the gap between my software coursework (**CSE 29: Systems Programming**) and hardware fundamentals (**ECE 35: Analog Design**) by building low-level drivers from scratch. I focus on direct register manipulation rather than relying on high-level abstraction libraries like Arduino.
 
-## 🚧 Planned Projects (Winter 2025)
+## 🚧 Planned Projects (Winter Break 2025)
 
 ### Project 1: Temperature-Controlled Cooling System
 **Concept:** A closed-loop control system that dynamically adjusts fan speed based on ambient temperature.
