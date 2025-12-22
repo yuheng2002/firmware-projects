@@ -1,0 +1,35 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "ASM"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_ASM
+  "D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/01_Blinky_ODR_Config/Startup/startup_stm32f446retx.s" "D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/01_Blinky_ODR_Config/Debug/CMakeFiles/01_Blinky_ODR_Config.dir/Startup/startup_stm32f446retx.s.obj"
+  )
+set(CMAKE_ASM_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/01_Blinky_ODR_Config/Sources/main.c" "CMakeFiles/01_Blinky_ODR_Config.dir/Sources/main.c.obj" "gcc" "CMakeFiles/01_Blinky_ODR_Config.dir/Sources/main.c.obj.d"
+  "D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/01_Blinky_ODR_Config/Sources/syscalls.c" "CMakeFiles/01_Blinky_ODR_Config.dir/Sources/syscalls.c.obj" "gcc" "CMakeFiles/01_Blinky_ODR_Config.dir/Sources/syscalls.c.obj.d"
+  "D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/01_Blinky_ODR_Config/Sources/sysmem.c" "CMakeFiles/01_Blinky_ODR_Config.dir/Sources/sysmem.c.obj" "gcc" "CMakeFiles/01_Blinky_ODR_Config.dir/Sources/sysmem.c.obj.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
