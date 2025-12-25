@@ -1,0 +1,3 @@
+D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/04_GPIO_Driver/Debug/CMakeFiles/04_GPIO_Driver.dir
+D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/04_GPIO_Driver/Debug/CMakeFiles/edit_cache.dir
+D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/04_GPIO_Driver/Debug/CMakeFiles/rebuild_cache.dir
