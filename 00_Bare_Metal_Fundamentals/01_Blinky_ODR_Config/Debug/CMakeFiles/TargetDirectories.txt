@@ -1,3 +1,0 @@
-D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/01_Blinky_ODR_Config/Debug/CMakeFiles/01_Blinky_ODR_Config.dir
-D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/01_Blinky_ODR_Config/Debug/CMakeFiles/edit_cache.dir
-D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/01_Blinky_ODR_Config/Debug/CMakeFiles/rebuild_cache.dir
