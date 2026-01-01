@@ -1,1 +1,9 @@
-Debug/
+# Ignore STM32 build output folders in any subdirectory
+**/Debug/
+**/Release/
+**/bin/
+.settings/
+.classpath
+.project
+.cproject
+*.launch
