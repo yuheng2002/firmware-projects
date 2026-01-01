@@ -21,7 +21,7 @@ My goal for Winter 2025 is to bridge the gap between my software coursework (**C
 * **Hardware Timers (TIMx):** Direct configuration of Prescalers (`PSC`) and Auto-Reload Registers (`ARR`) to establish precise time bases and frequencies independent of the CPU clock.
 * **PWM Generation:** Manipulation of Capture/Compare Registers (`CCR`) to dynamically adjust duty cycles, enabling analog-like control over digital pins.
 * **Alternate Function Mapping:** Configuring GPIO modes to route internal timer peripherals to physical output pins using Alternate Function Registers (`AFR`).
-* 
+
 ---
 
 ## 🛠 Hardware & Tools
