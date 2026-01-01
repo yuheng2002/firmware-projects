@@ -6,15 +6,7 @@ My goal for Winter 2025 is to bridge the gap between my software coursework (**C
 
 ## 🚧 Planned Projects (Winter Break 2025)
 
-### Project 1: Temperature-Controlled Cooling System
-**Concept:** A closed-loop control system that dynamically adjusts fan speed based on ambient temperature.
-
-**Technical Focus:**
-* **Communication Protocol:** Implement **I2C** driver logic to interface with a digital temperature sensor (e.g., TC74 or BMP280).
-* **Actuator Control:** Configure **Hardware Timers** to generate **PWM (Pulse Width Modulation)** signals for motor speed control.
-* **Hardware Interface:** Use a MOSFET driver circuit (treating it as a voltage-controlled switch) to bridge the 3.3V MCU logic with a 12V DC fan.
-
-### Project 2: Interrupt-Driven LED State Machine
+### Project 1: Interrupt-Driven LED State Machine
 **Concept:** A responsive I/O subsystem designed to handle user input efficiently without blocking CPU execution.
 
 **Technical Focus:**
@@ -22,6 +14,14 @@ My goal for Winter 2025 is to bridge the gap between my software coursework (**C
 * **Finite State Machine (FSM):** Structure the C code using `switch/case` logic to manage transitions between LED modes (Solid, Blink, Breathe).
 * **Signal Integrity:** Implement software **debouncing** algorithms to handle the physical noise of mechanical switches.
 
+### Project 2: PWM Actuator Driver & Hardware Timers
+**Concept:** A bare-metal driver utilizing STM32 General Purpose Timers to generate precision Pulse Width Modulation (PWM) signals. This project focuses on non-blocking actuator control logic (e.g., dynamic LED brightness breathing effects) without relying on CPU delay loops.
+
+**Technical Focus:**
+* **Hardware Timers (TIMx):** Direct configuration of Prescalers (`PSC`) and Auto-Reload Registers (`ARR`) to establish precise time bases and frequencies independent of the CPU clock.
+* **PWM Generation:** Manipulation of Capture/Compare Registers (`CCR`) to dynamically adjust duty cycles, enabling analog-like control over digital pins.
+* **Alternate Function Mapping:** Configuring GPIO modes to route internal timer peripherals to physical output pins using Alternate Function Registers (`AFR`).
+* 
 ---
 
 ## 🛠 Hardware & Tools
