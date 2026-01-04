@@ -67,8 +67,10 @@ One of the most important concepts demonstrated in this project is the separatio
 │   └── stm32f446xx_timer_driver.c      # Timer Driver Implementation
 └── Startup/
     └── ...                             # Startup code (Reset Handler)
+```
+---
 
-🚀 How to Build & Run
+## 🚀 How to Build & Run
 Open STM32CubeIDE.
 
 Import this folder as an existing project.
@@ -80,8 +82,9 @@ Connect Nucleo-F446RE via USB.
 Run/Debug.
 
 Observe: The Green LED (PA5) should smoothly fade in and out.
+---
 
-🧠 Learning Notes
+## 🧠 Learning Notes
 Lookup Logic: To find which Alternate Function controls the LED, I used the Datasheet (Table 11), not the Reference Manual.
 
 Mapping: PA5 + AF1 -> TIM2_CH1.
