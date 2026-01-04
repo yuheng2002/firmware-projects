@@ -67,6 +67,7 @@ One of the most important concepts demonstrated in this project is the separatio
 │   └── stm32f446xx_timer_driver.c      # Timer Driver Implementation
 └── Startup/
     └── ...                             # Startup code (Reset Handler)
+```
 ---
 
 ## 🚀 How to Build & Run
