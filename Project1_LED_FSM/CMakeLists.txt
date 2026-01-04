@@ -36,7 +36,7 @@ set (MFLOAT_ABI_MIX                   "-mfloat-abi=softfp")
 #######################################################################
 
 ###################### VARIABLES ######################################
-set (PROJECT_NAME             "05_EXTI_Button_Interrupt")
+set (PROJECT_NAME             "05_Project1_LED_FSM")
 set (PROJECT_TYPE             "exe")
 set (LINKER_SCRIPT            "../STM32F446RETX_FLASH.ld")
 set (MCPU                     "-mcpu=Cortex-M4")
@@ -52,8 +52,7 @@ set (PROJECT_SOURCES
 	Sources/main.c
 	Sources/syscalls.c
 	Sources/sysmem.c
-	Sources/stm32f446xx_gpio_driver.c #added driver.c file to avoid compilation error
-
+	Sources/stm32f446xx_gpio_driver.c
 	)
 
 set (PROJECT_DEFINES

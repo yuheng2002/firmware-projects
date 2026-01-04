@@ -1,0 +1,3 @@
+D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/06_Project2_PWM_Breathing_LED/Debug/CMakeFiles/06_Project2_PWM_Breathing_LED.dir
+D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/06_Project2_PWM_Breathing_LED/Debug/CMakeFiles/edit_cache.dir
+D:/STM32_Workspace/firmware-projects/00_Bare_Metal_Fundamentals/06_Project2_PWM_Breathing_LED/Debug/CMakeFiles/rebuild_cache.dir
