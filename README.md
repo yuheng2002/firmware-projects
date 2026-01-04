@@ -1,14 +1,14 @@
 # Embedded Firmware Learning Journey
 
-This repository documents my self-study projects in **Bare-Metal Embedded C** programming using the **STM32 (ARM Cortex-M)** platform.
+This repository documents my projects in **Bare-Metal Embedded C** programming using the **STM32 (ARM Cortex-M)** platform.
 
-My goal for Winter 2025 is to bridge the gap between my software coursework (**CSE 29: Systems Programming**) and hardware fundamentals (**ECE 35: Analog Design**) by building low-level drivers from scratch. I focus on direct register manipulation rather than relying on high-level abstraction libraries like Arduino or HAL.
+**Objective:** To bridge the gap between my software systems coursework (**CSE 29**) and hardware fundamentals (**ECE 35**) by building low-level drivers from scratch. The focus is on **direct register manipulation**, deliberately avoiding high-level abstraction libraries like Arduino or HAL to understand the underlying architecture.
 
 ## 📂 Project Portfolio
 
 ### Project 1: Interrupt-Driven LED State Machine
-**Status:** ✅ Completed
-**Concept:** A responsive I/O subsystem designed to handle user input efficiently without blocking CPU execution.
+* **Status:** ✅ Completed
+* **Concept:** A responsive I/O subsystem designed to handle user input efficiently without blocking CPU execution.
 
 **Technical Focus:**
 * **Event-Driven Architecture:** Replaced inefficient "polling" loops with **Hardware Interrupts (ISR)** to capture button presses immediately.
@@ -16,8 +16,8 @@ My goal for Winter 2025 is to bridge the gap between my software coursework (**C
 * **Signal Handling:** Implemented software logic to handle the mechanical behavior of the on-board user button.
 
 ### Project 2: PWM Actuator Driver & Hardware Timers
-**Status:** ✅ Completed
-**Concept:** A bare-metal driver utilizing STM32 General Purpose Timers to generate precision Pulse Width Modulation (PWM) signals. This project implements a "Breathing LED" effect by offloading high-frequency signal generation to hardware.
+* **Status:** ✅ Completed
+* **Concept:** A bare-metal driver utilizing STM32 General Purpose Timers to generate precision Pulse Width Modulation (PWM) signals. This project implements a "Breathing LED" effect by offloading high-frequency signal generation to hardware.
 
 **Technical Focus:**
 * **Hardware Timers (TIMx):** Direct configuration of Prescalers (`PSC`) and Auto-Reload Registers (`ARR`) to establish a precise 1kHz time base independent of the CPU clock.
