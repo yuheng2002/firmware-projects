@@ -123,5 +123,3 @@ The delay does not control the *LED frequency*; it controls the *Animation Speed
 Without `software_delay`, the 16MHz CPU would blast through values 0 to 999 in microseconds. The LED would fade in and out so fast that the human eye would just see a blur of average brightness. The delay slows down the **rate of change**, allowing us to perceive the "Breathing" effect.
 
 ```
-
-```
