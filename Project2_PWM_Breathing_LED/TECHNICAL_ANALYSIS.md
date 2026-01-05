@@ -7,10 +7,7 @@ The STM32F446RE is powered by a **16 MHz System Clock (HSI)**. While this speed 
 ### The Calculation Logic
 The Timer frequency is determined by the following formula:
 
-```math
-Timer_Freq = System_Clk / ((PSC + 1) * (ARR + 1))
-
-```
+$$Timer\_Freq = \frac{System\_Clk}{(PSC + 1) \times (ARR + 1)}$$
 
 * **PSC (The Gearbox):** This scales down the clock.
 * At `PSC = 0`: The timer counts at 16 MHz (62.5 ns per tick).
