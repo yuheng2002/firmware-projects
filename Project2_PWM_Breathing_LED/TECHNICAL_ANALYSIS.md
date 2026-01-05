@@ -1,4 +1,3 @@
-```markdown
 # Technical Analysis: Hardware PWM & Timer Logic
 
 ## 1. The Mathematics of Frequency (PSC & ARR)
