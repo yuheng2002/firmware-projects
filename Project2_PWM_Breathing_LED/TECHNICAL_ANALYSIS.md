@@ -9,6 +9,7 @@ The Timer frequency is determined by the following formula:
 
 ```math
 Timer_Freq = System_Clk / ((PSC + 1) * (ARR + 1))
+```
 
 PSC (The Gearbox): This scales down the clock.
 
