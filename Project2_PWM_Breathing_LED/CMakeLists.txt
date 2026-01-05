@@ -36,7 +36,7 @@ set (MFLOAT_ABI_MIX                   "-mfloat-abi=softfp")
 #######################################################################
 
 ###################### VARIABLES ######################################
-set (PROJECT_NAME             "06_Project2_PWM_Breathing_LED")
+set (PROJECT_NAME             "Project2_PWM_Breathing_LED")
 set (PROJECT_TYPE             "exe")
 set (LINKER_SCRIPT            "../STM32F446RETX_FLASH.ld")
 set (MCPU                     "-mcpu=Cortex-M4")

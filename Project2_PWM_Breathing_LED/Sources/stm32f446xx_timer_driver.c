@@ -51,6 +51,8 @@ void TIM_PWM_Init(TIM_Handle_t *pTIMHandle){
 	 * 5. Enable CCER (capture/compare enable register)
 	 * ==========================================
      * This connects the internal PWM signal to the physical Pin.
+     * This bit determines if a capture of the counter value can actually be done into the input
+     * capture/compare register 1 (TIMx_CCR1) or not.
 	 */
 	SET_BIT(pTIMx->CCER, 0);
 

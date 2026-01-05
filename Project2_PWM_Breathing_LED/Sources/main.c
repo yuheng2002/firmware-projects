@@ -150,14 +150,14 @@ int main(void)
 
     	// Phase 1: Fade In (0% -> 100%)
     	for (int i = 0; i <= 999; i++){
-    		TIM_SetCompare1(TIM2, i); // Modify CCR1 register
-    		software_delay(500); // // Wait a bit so eyes can see the change
+    		TIM_SetCompare1(TIM2, 100); // Modify CCR1 register
+    		software_delay(1000); // // Wait a bit so eyes can see the change
     	}
 
     	// Phase 2: Fade Out (100% -> 0%)
     	for (int i = 999; i >= 0; i--){
-    		TIM_SetCompare1(TIM2, i);
-    		software_delay(500);
+    		TIM_SetCompare1(TIM2, 100);
+    		software_delay(1000);
     	}
     }
 }
