@@ -9,6 +9,8 @@ The Timer frequency is determined by the following formula:
 
 $$Timer\_Freq = \frac{System\_Clk}{(PSC + 1) \times (ARR + 1)}$$
 
+---
+
 * **PSC (The Gearbox):** This scales down the clock.
 * At `PSC = 0`: The timer counts at 16 MHz (62.5 ns per tick).
 * At `PSC = 15`: The timer counts at `16 MHz / 16 = 1 MHz` (1 µs per tick).
