@@ -19,4 +19,4 @@ This project implements a responsive, non-blocking I/O system using **Hardware I
 1.  **Initialization:** The `GPIO_Init` function configures PA5 as Output and PC13 as IT_FT (Interrupt Falling Edge).
 2.  **Interrupt Handling:** When the button is pressed, the CPU jumps to `EXTI15_10_IRQHandler`.
 3.  **State Transition:** The ISR updates the global `g_LedState` variable.
-4.  **Main Loop:** The `while(1)` loop reads the state and controls the LED (including a non-blocking logic for the Blink state).
+4.  **Main Loop:** The while(1) loop continuously polls the state variable (updated asynchronously by the ISR) to execute the corresponding LED pattern.
