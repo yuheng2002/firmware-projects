@@ -44,6 +44,7 @@ One of the most important concepts demonstrated in this project is the separatio
 | **Hardware (TIM2)** | **Signal Generation.** Continuously toggles the pin at 1kHz based on the current `CCR1` value. | **Continues working.** The LED will stay lit at the last set brightness level. |
 | **Software (CPU)** | **Modulation.** Updates the `CCR1` register every few milliseconds to create the "fade-in/fade-out" animation. | **Stops.** The breathing animation halts, but the light does not turn off. |
 
+Engineering Note: While the PWM signal generation is fully hardware-offloaded (non-blocking), the current main loop uses a software_delay to control the fading speed. For a fully non-blocking architecture, the duty cycle updates could be moved to a periodic timer interrupt.
 ---
 
 ## 🔌 Pin Mapping
